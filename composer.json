@@ -1,0 +1,21 @@
+{
+	"name": "axome/waxo",
+	"autoload": {
+		"psr-4": {
+			"Waxo\\": "includes/"
+		}
+	},
+	"authors": [
+		{
+			"name": "axome"
+		}
+	],
+	"require": {
+		"timber/timber": "^2.1"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	}
+}

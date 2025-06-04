@@ -1,0 +1,524 @@
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-05 20:52+0000\n"
+"PO-Revision-Date: 2025-05-05 20:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: src/blocks/image-switcher-section/edit.js:122
+msgid "Add Content Section"
+msgstr "Ajouter une section de contenu"
+
+#: src/blocks/animated-number/edit.js:60
+msgid "Animation Duration (ms)"
+msgstr "Durée de l'animation (ms)"
+
+#. Author of the theme
+msgid "Axome"
+msgstr "Axome"
+
+#: includes/Assets.php:130
+msgid "Back"
+msgstr "Retour"
+
+#: views/404.twig:10
+msgid "Back to home page"
+msgstr "Retour à la page d'accueil"
+
+#: build/blocks/image-switcher-section/block.json:1
+#: src/blocks/image-switcher-section/block.json:1
+msgctxt "block description"
+msgid "A section with switchable content and related images."
+msgstr "Une section avec du contenu interchangeable et des images associées."
+
+#: build/blocks/tab/block.json:1 src/blocks/tab/block.json:1
+msgctxt "block description"
+msgid "A single tab panel that can contain any blocks"
+msgstr "Un panneau d'onglet unique pouvant contenir n'importe quels blocs"
+
+#: build/blocks/slide/block.json:1 src/blocks/slide/block.json:1
+msgctxt "block description"
+msgid "A slide block. Used for the slider block"
+msgstr "Un bloc de diapositive. Utilisé pour le bloc de diaporama"
+
+#: build/blocks/slider/block.json:1 src/blocks/slider/block.json:1
+msgctxt "block description"
+msgid "A slider block powered by Swiper JS library"
+msgstr "Un bloc de diaporama propulsé par la bibliothèque Swiper JS"
+
+#: build/blocks/scrollable-tab/block.json:1
+#: src/blocks/scrollable-tab/block.json:1
+msgctxt "block description"
+msgid "A tab used only for the scrollable tabs block"
+msgstr "Un onglet utilisé uniquement pour le bloc d'onglets défilables"
+
+#: build/blocks/image-switcher-content/block.json:1
+#: src/blocks/image-switcher-content/block.json:1
+msgctxt "block description"
+msgid "Content with a related image for the Image Switcher Section."
+msgstr "Contenu avec une image associée pour la Section de Commutation d'Images."
+
+#: build/blocks/tabs/block.json:1 src/blocks/tabs/block.json:1
+msgctxt "block description"
+msgid "Create a tabbed interface to organize content"
+msgstr "Créer une interface à onglets pour organiser le contenu"
+
+#: build/blocks/expandable-content/block.json:1
+#: src/blocks/expandable-content/block.json:1
+msgctxt "block description"
+msgid "Create expandable content sections with customizable line clamp"
+msgstr "Créer des sections de contenu extensibles avec limitation de lignes personnalisables"
+
+#: build/blocks/scrollable-tabs/block.json:1
+#: src/blocks/scrollable-tabs/block.json:1
+msgctxt "block description"
+msgid "Creates scrollable contents with navigation menu on desktop"
+msgstr "Crée des contenus défilables avec menu de navigation sur ordinateur"
+
+#: build/blocks/animated-number/block.json:1
+#: src/blocks/animated-number/block.json:1
+msgctxt "block description"
+msgid "Display an animated number with optional prefix and suffix"
+msgstr "Afficher un nombre animé avec préfixe et suffixe optionnels"
+
+#: build/blocks/animated-number/block.json:1
+#: src/blocks/animated-number/block.json:1
+msgctxt "block title"
+msgid "Animated Number"
+msgstr "Nombre Animé"
+
+#: build/blocks/expandable-content/block.json:1
+#: src/blocks/expandable-content/block.json:1
+msgctxt "block title"
+msgid "Expandable Content"
+msgstr "Contenu Extensible"
+
+#: build/blocks/image-switcher-content/block.json:1
+#: src/blocks/image-switcher-content/block.json:1
+msgctxt "block title"
+msgid "Image Switcher Content"
+msgstr "Contenu de Commutation d'Image"
+
+#: build/blocks/image-switcher-section/block.json:1
+#: src/blocks/image-switcher-section/block.json:1
+msgctxt "block title"
+msgid "Image Switcher Section"
+msgstr "Section de Commutation d'Image"
+
+#: build/blocks/scrollable-tab/block.json:1
+#: src/blocks/scrollable-tab/block.json:1
+msgctxt "block title"
+msgid "Scrollable tab"
+msgstr "Onglet défilable"
+
+#: build/blocks/scrollable-tabs/block.json:1
+#: src/blocks/scrollable-tabs/block.json:1
+msgctxt "block title"
+msgid "Scrollable tabs"
+msgstr "Onglets défilables"
+
+#: build/blocks/slide/block.json:1 src/blocks/slide/block.json:1
+msgctxt "block title"
+msgid "Slide"
+msgstr "Diapositive"
+
+#: build/blocks/slider/block.json:1 src/blocks/slider/block.json:1
+msgctxt "block title"
+msgid "Slider"
+msgstr "Diaporama"
+
+#: build/blocks/tab/block.json:1 src/blocks/tab/block.json:1
+msgctxt "block title"
+msgid "Tab"
+msgstr "Onglet"
+
+#: build/blocks/tabs/block.json:1 src/blocks/tabs/block.json:1
+msgctxt "block title"
+msgid "Tabs"
+msgstr "Onglets"
+
+#: src/blocks/image-switcher-content/edit.js:116
+msgid "Bullet Color"
+msgstr "Couleur de la puce"
+
+#: src/blocks/image-switcher-content/edit.js:106
+msgid "Bullet is displayed before the title."
+msgstr "La puce est affichée avant le titre."
+
+#: src/blocks/image-switcher-content/edit.js:148
+msgid "Bullet preview"
+msgstr "Aperçu de la puce"
+
+#: src/blocks/image-switcher-content/edit.js:101
+msgid "Bullet Settings"
+msgstr "Paramètres de la puce"
+
+#: includes/Assets.php:131
+msgid "Close"
+msgstr "Fermer"
+
+#: src/blocks/image-switcher-content/edit.js:121
+msgid "Color"
+msgstr "Couleur"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Gris"
+msgstr "Gris"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Gris clair"
+msgstr "Gris clair"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Gris foncé"
+msgstr "Gris foncé"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Neutral"
+msgstr "Neutre"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Neutral light"
+msgstr "Neutre clair"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Primaire"
+msgstr "Primaire"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Secondaire"
+msgstr "Secondaire"
+
+#: theme.json:1
+msgctxt "Color name"
+msgid "Texte"
+msgstr "Texte"
+
+#: src/blocks/image-switcher-content/edit.js:162
+msgid "Content Title"
+msgstr "Titre du contenu"
+
+#: src/blocks/image-switcher-section/edit.js:209
+msgid "Default Image"
+msgstr "Image par défaut"
+
+#: src/blocks/image-switcher-section/edit.js:131
+msgid "Default Image Settings"
+msgstr "Paramètres de l'image par défaut"
+
+#: src/blocks/image-switcher-section/edit.js:136
+msgid "Default image will be shown when no content is active."
+msgstr "L'image par défaut sera affichée quand aucun contenu n'est actif."
+
+#: includes/CustomFields.php:35
+msgid "Dropdown"
+msgstr "Liste déroulante"
+
+#: src/blocks/animated-number/edit.js:51
+msgid "e.g. $, +, etc."
+msgstr "ex. $, +, etc."
+
+#: src/blocks/animated-number/edit.js:57
+msgid "e.g. %, k, etc."
+msgstr "ex. %, k, etc."
+
+#: src/blocks/image-switcher-section/edit.js:137
+msgid "First content will be active by default."
+msgstr "Le premier contenu sera actif par défaut."
+
+#: theme.json:1
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Base"
+msgstr "Base"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr "Très grand"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr "Très petit"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Extra Super Large"
+msgstr "Extra super grand"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H1 32-40px"
+msgstr "H1 32-40px"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H2 28-32px"
+msgstr "H2 28-32px"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H3 20-24px"
+msgstr "H3 20-24px"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "H4 18-20px"
+msgstr "H4 18-20px"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Large"
+msgstr "Grand"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Small"
+msgstr "Petit"
+
+#: theme.json:1
+msgctxt "Font size name"
+msgid "Tag (10px - 12px)"
+msgstr "Tag (10px - 12px)"
+
+#. Name of the template
+#: page-gutenberg.php:2
+msgid "Gutenberg"
+msgstr "Gutenberg"
+
+#. URI of the theme
+msgid "https://www.axome.com"
+msgstr "https://www.axome.com"
+
+#: includes/Theme.php:70
+msgid "Menu footer 1"
+msgstr "Menu pied de page 1"
+
+#: includes/Theme.php:71
+msgid "Menu footer 2"
+msgstr "Menu pied de page 2"
+
+#: includes/Theme.php:69
+msgid "Menu primary"
+msgstr "Menu principal"
+
+#: src/blocks/image-switcher-section/edit.js:45
+msgid "New Content"
+msgstr "Nouveau contenu"
+
+#: src/blocks/image-switcher-content/edit.js:107
+msgid "No bullet is displayed."
+msgstr "Aucune puce n'est affichée."
+
+#: src/blocks/image-switcher-section/edit.js:287
+msgid "No content section is active. Select a content section to edit its image."
+msgstr "Aucune section de contenu n'est active. Sélectionnez une section de contenu pour modifier son image."
+
+#: src/blocks/image-switcher-section/edit.js:285
+msgid "No default image selected. Set a default image in the block settings."
+msgstr "Aucune image par défaut sélectionnée. Définissez une image par défaut dans les paramètres du bloc."
+
+#: src/blocks/image-switcher-section/edit.js:268
+msgid "No image selected for this content. Click to add an image."
+msgstr "Aucune image sélectionnée pour ce contenu. Cliquez pour ajouter une image."
+
+#: views/index.twig:29
+msgid "No posts found."
+msgstr "Aucun article trouvé."
+
+#: src/blocks/animated-number/edit.js:39
+msgid "Number Settings"
+msgstr "Paramètres du nombre"
+
+#: src/blocks/animated-number/edit.js:41
+msgid "Number Value"
+msgstr "Valeur du nombre"
+
+#: views/404.twig:8
+msgid "Oops, this was not expected"
+msgstr "Oups, voilà qui n'était pas prévu"
+
+#: patterns/animated-numbers.php:2
+msgctxt "Pattern title"
+msgid "Animated Numbers"
+msgstr "Nombres Animés"
+
+#: patterns/content-image-50-50.php:2
+msgctxt "Pattern title"
+msgid "Content and Image"
+msgstr "Contenu et Image"
+
+#: patterns/content-scrollable-tabs.php:2
+msgctxt "Pattern title"
+msgid "Content Scrollable tabs"
+msgstr "Onglets défilables de contenu"
+
+#: patterns/cta-marquee.php:2
+msgctxt "Pattern title"
+msgid "CTA Marquee"
+msgstr "Bandeau CTA"
+
+#: patterns/hero-section.php:2
+msgctxt "Pattern title"
+msgid "Hero section"
+msgstr "Section héro"
+
+#: patterns/post-loop.php:2
+msgctxt "Pattern title"
+msgid "Post loop"
+msgstr "Boucle d'articles"
+
+#: patterns/section-tabs.php:2
+msgctxt "Pattern title"
+msgid "Section Tabs"
+msgstr "Onglets de section"
+
+#: src/blocks/animated-number/edit.js:48
+msgid "Prefix"
+msgstr "Préfixe"
+
+#: src/blocks/image-switcher-content/edit.js:211
+#: src/blocks/image-switcher-section/edit.js:178
+#: src/blocks/image-switcher-section/edit.js:255
+msgid "Remove"
+msgstr "Supprimer"
+
+#: src/blocks/image-switcher-content/edit.js:204
+#: src/blocks/image-switcher-section/edit.js:171
+#: src/blocks/image-switcher-section/edit.js:247
+msgid "Replace"
+msgstr "Remplacer"
+
+#: src/blocks/image-switcher-content/edit.js:133
+msgid "Reset to theme primary color"
+msgstr "Réinitialiser à la couleur primaire du thème"
+
+#: src/blocks/image-switcher-section/edit.js:199
+msgid "Section Title"
+msgstr "Titre de la section"
+
+#: includes/CustomFields.php:39
+msgid "Select a block"
+msgstr "Sélectionner un block"
+
+#: src/blocks/image-switcher-section/edit.js:157
+msgid "Select Default Image"
+msgstr "Sélectionner l'image par défaut"
+
+#: src/blocks/image-switcher-content/edit.js:190
+#: src/blocks/image-switcher-section/edit.js:266
+msgid "Select Image"
+msgstr "Sélectionner une image"
+
+#: theme.json:1
+msgctxt "Shadow name"
+msgid "Large shadow"
+msgstr "Grande ombre"
+
+#: views/404.twig:9
+msgid "Sorry but this link cannot be found! Go to the home page."
+msgstr "Désolé mais ce lien est introuvable ! Dirigez-vous vers la page d'accueil."
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "1"
+msgstr "1"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "2"
+msgstr "2"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "3"
+msgstr "3"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "4"
+msgstr "4"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "5"
+msgstr "5"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "6"
+msgstr "6"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Heading margin bottom"
+msgstr "Marge inférieure des titres"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Padding block group (16 to 100px)"
+msgstr "Groupe de padding de bloc (16 à 100px)"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Theme (48 to 100px)"
+msgstr "Thème (48 à 100px)"
+
+#: theme.json:1
+msgctxt "Space size name"
+msgid "Theme small (48 to 80px)"
+msgstr "Petit thème (48 à 80px)"
+
+#: src/blocks/animated-number/edit.js:54
+msgid "Suffix"
+msgstr "Suffixe"
+
+#: build/blocks/tabs/render.php:21 src/blocks/tabs/render.php:21
+msgid "Tab %d"
+msgstr "Onglet %d"
+
+#: src/blocks/tab/edit.js:22
+msgid "Tab Settings"
+msgstr "Paramètres de l'onglet"
+
+#: src/blocks/tab/edit.js:24
+msgid "Tab Title"
+msgstr "Titre de l'onglet"
+
+#: src/blocks/image-switcher-content/edit.js:103
+msgid "Use Bullet"
+msgstr "Utiliser une puce"
+
+#: src/blocks/image-switcher-section/edit.js:133
+msgid "Use Default Image"
+msgstr "Utiliser l'image par défaut"
+
+#: src/blocks/image-switcher-content/edit.js:169
+msgid "Using default image"
+msgstr "Utilisation de l'image par défaut"
+
+#. Name of the theme
+msgid "Waxo"
+msgstr "Waxo"
+
+#. Description of the theme
+msgid "Waxo theme / by Axome"
+msgstr "Thème Waxo / par Axome"

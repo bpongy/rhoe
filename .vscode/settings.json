@@ -1,0 +1,10 @@
+{
+	"workbench.colorCustomizations": {
+		"statusBar.background": "#C1FA6C",
+		"statusBar.foreground": "#000000"
+	},
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	"editor.renderWhitespace": "boundary"
+}

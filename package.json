@@ -1,0 +1,14 @@
+{
+	"name": "rhoe",
+	"version": "0.1",
+	"description": "Rhoe theme",
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com:bpongy/rhoe.git"
+	},
+	"author": "Benjamin PONGY",
+	"license": "GPL-2.0",
+	"homepage": "https://rhoe.io",
+	"devDependencies": {},
+	"dependencies": {}
+}

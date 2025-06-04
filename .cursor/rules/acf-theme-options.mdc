@@ -1,0 +1,171 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# ACF Theme Options Field Group Guide
+
+## Overview
+This guide explains how to correctly add fields to the existing `group_theme_options` field group in [inc/acf-options.php](mdc:inc/acf-options.php).
+
+## Field Structure
+When adding fields to the `group_theme_options` group, follow this structure:
+
+```php
+'fields' => [
+    [
+        'key' => 'field_unique_key',
+        'label' => 'Field Label',
+        'name' => 'field_name',
+        'type' => 'field_type',
+        // Additional field-specific settings
+    ],
+    // More fields...
+],
+```
+
+## Field Key Requirements
+- Each field key MUST be unique across the entire site
+- Format: `field_descriptive_name` (e.g., `field_site_logo`, `field_contact_email`)
+- Keys should be descriptive and follow snake_case convention
+
+## Common Field Types and Settings
+
+### Text Field
+```php
+[
+    'key' => 'field_site_tagline',
+    'label' => 'Site Tagline',
+    'name' => 'site_tagline',
+    'type' => 'text',
+    'placeholder' => 'Enter site tagline...',
+    'maxlength' => 100,
+]
+```
+
+### Textarea Field
+```php
+[
+    'key' => 'field_site_description',
+    'label' => 'Site Description',
+    'name' => 'site_description',
+    'type' => 'textarea',
+    'rows' => 4,
+    'maxlength' => 500,
+]
+```
+
+### Image Field
+```php
+[
+    'key' => 'field_site_logo',
+    'label' => 'Site Logo',
+    'name' => 'site_logo',
+    'type' => 'image',
+    'return_format' => 'array',
+    'preview_size' => 'medium',
+    'library' => 'all',
+]
+```
+
+### Email Field
+```php
+[
+    'key' => 'field_contact_email',
+    'label' => 'Contact Email',
+    'name' => 'contact_email',
+    'type' => 'email',
+    'placeholder' => 'hello@example.com',
+]
+```
+
+### URL Field
+```php
+[
+    'key' => 'field_website_url',
+    'label' => 'Website URL',
+    'name' => 'website_url',
+    'type' => 'url',
+    'placeholder' => 'https://example.com',
+]
+```
+
+### Select Field
+```php
+[
+    'key' => 'field_theme_color',
+    'label' => 'Theme Color',
+    'name' => 'theme_color',
+    'type' => 'select',
+    'choices' => [
+        'blue' => 'Blue',
+        'green' => 'Green',
+        'red' => 'Red',
+    ],
+    'default_value' => 'blue',
+    'allow_null' => 0,
+]
+```
+
+### Repeater Field
+```php
+[
+    'key' => 'field_social_links',
+    'label' => 'Social Links',
+    'name' => 'social_links',
+    'type' => 'repeater',
+    'sub_fields' => [
+        [
+            'key' => 'field_social_platform',
+            'label' => 'Platform',
+            'name' => 'platform',
+            'type' => 'select',
+            'choices' => [
+                'facebook' => 'Facebook',
+                'twitter' => 'Twitter',
+                'instagram' => 'Instagram',
+                'linkedin' => 'LinkedIn',
+            ],
+        ],
+        [
+            'key' => 'field_social_url',
+            'label' => 'URL',
+            'name' => 'url',
+            'type' => 'url',
+        ],
+    ],
+    'min' => 0,
+    'max' => 10,
+    'layout' => 'table',
+    'button_label' => 'Add Social Link',
+]
+```
+
+### True/False Field
+```php
+[
+    'key' => 'field_maintenance_mode',
+    'label' => 'Maintenance Mode',
+    'name' => 'maintenance_mode',
+    'type' => 'true_false',
+    'message' => 'Enable maintenance mode',
+    'default_value' => 0,
+    'ui' => 1,
+]
+```
+
+## Best Practices
+
+1. **Field Names**: Use snake_case and be descriptive (e.g., `contact_email`, `site_logo`)
+2. **Field Keys**: Always prefix with `field_` and make them unique
+3. **Labels**: Use clear, user-friendly labels for the admin interface
+4. **Placeholders**: Provide helpful placeholder text when appropriate
+5. **Default Values**: Set sensible defaults for better UX
+6. **Validation**: Use built-in field types (email, url) for automatic validation
+
+## Important Notes
+
+- The field group is registered via `acf_add_local_field_group()` in the `acf/init` action
+- Fields registered via PHP won't appear in the ACF admin interface for editing
+- Always escape output when displaying values in templates
+- Test field additions in a development environment first
