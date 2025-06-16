@@ -1,7 +1,7 @@
 {
 	"workbench.colorCustomizations": {
-		"statusBar.background": "#C1FA6C",
-		"statusBar.foreground": "#000000"
+		"statusBar.background": "#ade25d",
+		"statusBar.foreground": "#0a0a0c"
 	},
 	"editor.insertSpaces": false,
 	"editor.tabSize": 4,
